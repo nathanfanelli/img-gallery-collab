@@ -1,0 +1,6 @@
+20200304 KW, 
+Applied some css grid to the gallery items and added in some manga placeholders. 
+They are all the same size. Added some starter code for the media queries & navbar. 
+I think you could design the navbar similar to the one on your website. 
+Pretty rusty on the web design. 
+I'll start doing the path again on CA, because I felt a little blind here. 

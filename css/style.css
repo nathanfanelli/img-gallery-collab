@@ -3,3 +3,73 @@
     margin: 0;
     padding: 0
 }
+
+body {
+    margin: 40px;
+  }
+
+  /* Navbar grid, I got started with something here, you can scrap this or build on it. */
+
+  /* .navlinks{
+      display:grid;
+      grid-template-columns: auto auto auto;
+      background-color: #fff;
+      color: #444;
+      max-height: 100%;
+      max-width: 100%;
+
+  }
+
+.links{
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 100%;
+    max-width: 100%;
+    max-height: 100%;
+  } */
+  
+  /* Grid Layout for the Gallery */
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    max-height: 100%;
+    
+  }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  img {
+    
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* Responsive gallery design */
+
+/* 
+  @media only screen and (max-width: 800px)  {
+    .wrapper {
+
+    }
+    }
+
+    @media only screen and (max-width: 600px)   {
+        .wrapper {
+       }
+    } */
+
