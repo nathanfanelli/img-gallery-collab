@@ -1,3 +1,4 @@
+/* General Styles. These styles will reset the User Agent Stylesheet styles. */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +7,15 @@
 
 body {
     margin: 40px;
-  }
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
 
   /* Navbar grid, I got started with something here, you can scrap this or build on it. */
 
@@ -62,14 +71,13 @@ body {
 /* Responsive gallery design */
 
 /* 
-  @media only screen and (max-width: 800px)  {
-    .wrapper {
-
+ UPDATE! There are two very popular media query breakpoints in responsive design. 
+    The first is 480px and this is the size of iPhone screen widths. 
+    The second is 768px and this is the size of iPad screen widths. 
+I am going to change the sizes and I am going to change these media queries from max-width to min-width. Min-width is for mobile-first approaches. Also, I am going to refrain from adding any media query styles until the very end. All of our CSS styles abov the media queries will be considered base styles and they will all be written as a single-column layout best suited for mobile devices. All of the media query styles will be written as an expansion of our single-column layout (i.e. 2-column layout on iPads and a 3-column layout on desktop). 
+  @media only screen and (min-width: 480px)  {
     }
-    }
 
-    @media only screen and (max-width: 600px)   {
-        .wrapper {
-       }
+    @media only screen and (min-width: 768px)   {
     } */
 
