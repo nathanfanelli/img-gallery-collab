@@ -40,7 +40,7 @@ a {
   } */
   
   /* Grid Layout for the Gallery */
-  .wrapper {
+  .gallery-container {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
