@@ -9,31 +9,35 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <!-- <p class="logo">Gallery X</p>, switch this because I thought it could make the css easier. Feel free to change back.  -->
-        <ul class="nav-links">
-            <li class="links"><a href="#">Logo</a></li>
-            <li class="links"><a href="#">Home</a></li>
-            <li class="links"><a href="#">Gallery</a></li>
-            <li class="links"><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <!-- Navbar -->
+        <!-- The thought here is to break the navigation bar into two parts: the logo that will sit on the top left of the viewport and the navigation links that will reside in the top right of the viewport. That way we can set the entire navigation bar (parent element) to grid and have the children sit inline together and we can then treat the child elements of the navbar with different styles. -->
+        <nav class="navbar">
+            <p class="logo">Gallery X</p>
+            <ul class="nav-links">
+                <li class="links"><a href="#">Home</a></li>
+                <li class="links"><a href="#">Gallery</a></li>
+                <li class="links"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
 
-    <!-- Gallery -->
+        <!-- Gallery -->
+        <!-- Got rid of the divs with classes because the images in the gallery are the only images in the website. Wrapping images in divs with classes is unnecessary code that would just complicate things here. :) -->
+        <div class="gallery-container">
+            <img src="img\01.jpg" alt="">
+            <img src="img\02.jpg" alt="">
+            <img src="img\03.jpg" alt="">
+            <img src="img\04.jpg" alt="">
+            <img src="img\05.jpg" alt="">
+            <img src="img\06.jpg" alt="">
+        </div>
 
-<div class="gallery-container">
-    <div class="box"><img src="img\01.jpg" alt=""></div>
-    <div class="box"><img src="img\02.jpg" alt=""></div>
-    <div class="box"><img src="img\03.jpg" alt=""></div>
-    <div class="box"><img src="img\04.jpg" alt=""></div>
-    <div class="box"><img src="img\05.jpg" alt=""></div>
-    <div class="box"><img src="img\06.jpg" alt=""></div>
-  </div>
-  
-  
+    </div><!-- End of body container-->
+
+
     <!-- Footer -->
-    <footer><!-- Not concerned with content here just yet. I'm thinking a footer with 4 unordered list links will look nice and thorough.-->
+    <footer>
+        <!-- Not concerned with content here just yet. I'm thinking a footer with 4 unordered list links will look nice and thorough.-->
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Gallery</a></li>
@@ -55,7 +59,6 @@
             <li><a href="">Contact</a></li>
         </ul>
     </footer>
-    
     <script src="js/index.js></script><!--Ignore the script tags for now. Javascript is always added last!-->
 </body>
 
