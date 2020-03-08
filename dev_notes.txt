@@ -9,3 +9,9 @@ I'll start doing the path again on CA, because I felt a little blind here.
 Utilized a flexbox trick to push the footer down to the bottom. Here is the link for the article I used as reference: https://css-tricks.com/couple-takes-sticky-footer/.
 Added two media queries styles to break the image gallery display to 2 and 1 columns and the footer to display in 2 columns. Grid made these media queries VERY simple with minimal code. 
 Changed image size just for reference. We'll want to find different images that better suit Kendell's art exhibit motif. 
+
+03/08/20 KW:
+Testing pushing changes to my branch from VS Code. 
+Imported art gallery photos of Richard Avedon portraits. (https://www.avedonfoundation.org/the-work)
+Imported fonts from google fonts and applied to text. Added color highlight when hovering over links. 
+Found potential flip animation for photos. (https://www.w3schools.com/howto/howto_css_flip_card.asp)
