@@ -6,6 +6,15 @@
 }
 /* I've never seen a fixed margin be applied to all four sides of the viewport on the body tag. I got rid of that declaration because we'll want to apply custom margin and padding values to the different sections of the webpages. That would also negate the reset css styles at the very top that ensures every element on the web page is the exact size we tell it to be. Resets are EXTREMELY common! :)*/
 
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 ul {
     list-style-type: none;
 }
@@ -16,8 +25,10 @@ a {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
+  width: 80%;
   margin: auto;
+  flex: 1 0 auto;
 }
 
 /* Navbar */
@@ -47,12 +58,19 @@ a {
   
 /* Gallery */
 .gallery-container {
-  display: block;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  align-items: center;
+  justify-items: center;
 }
 
 img {
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 100%;
+  max-height: 400px;
+  border: 1px solid #333;
+  border-radius: 5px;
 }
 
 /* Footer */
@@ -61,10 +79,9 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
   padding: 20px 0;
   background-color: #ccc;
+  flex-shrink: 0;
 }
 
 footer ul li a {
@@ -73,17 +90,29 @@ footer ul li a {
 }
 
 
-
-/* Responsive gallery design */
+/* Media Queries */
 
 /* 
  UPDATE! There are two very popular media query breakpoints in responsive design. 
     The first is 480px and this is the size of iPhone screen widths. 
     The second is 768px and this is the size of iPad screen widths. 
 I am going to change the sizes and I am going to change these media queries from max-width to min-width. Min-width is for mobile-first approaches. Also, I am going to refrain from adding any media query styles until the very end. All of our CSS styles abov the media queries will be considered base styles and they will all be written as a single-column layout best suited for mobile devices. All of the media query styles will be written as an expansion of our single-column layout (i.e. 2-column layout on iPads and a 3-column layout on desktop). 
-  @media only screen and (min-width: 480px)  {
+*/
+
+  @media only screen and (max-width: 800px)  {
+    .gallery-container {
+      grid-template-columns: repeat(2, 1fr);
     }
 
-    @media only screen and (min-width: 768px)   {
-    } */
+    footer {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 15px;
+    }
+  }
+
+    @media only screen and (max-width: 600px)   {
+    .gallery-container {
+      grid-template-columns: 1fr;
+    }
+  } 
 

@@ -4,3 +4,8 @@ They are all the same size. Added some starter code for the media queries & navb
 I think you could design the navbar similar to the one on your website. 
 Pretty rusty on the web design. 
 I'll start doing the path again on CA, because I felt a little blind here. 
+
+03/08/20 NF:
+Utilized a flexbox trick to push the footer down to the bottom. Here is the link for the article I used as reference: https://css-tricks.com/couple-takes-sticky-footer/.
+Added two media queries styles to break the image gallery display to 2 and 1 columns and the footer to display in 2 columns. Grid made these media queries VERY simple with minimal code. 
+Changed image size just for reference. We'll want to find different images that better suit Kendell's art exhibit motif. 
