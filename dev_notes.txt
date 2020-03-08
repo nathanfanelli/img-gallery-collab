@@ -13,3 +13,4 @@ Changed image size just for reference. We'll want to find different images that 
 03/08/20 KW:
 Testing pushing changes to my branch from VS Code. 
 Imported art gallery photos of Richard Avedon portraits. (https://www.avedonfoundation.org/the-work)
+Imported fonts from google fonts and applied to text. 

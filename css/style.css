@@ -32,6 +32,7 @@ a {
 }
 
 /* Navbar */
+
 .navbar {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -41,6 +42,7 @@ a {
 
 .navbar .logo {
   font-size: 2rem;
+  font-family: 'Allerta Stencil', sans-serif;
 }
 
 .navbar .nav-links {
@@ -48,6 +50,7 @@ a {
   justify-self: flex-end;
   align-items: center;
   justify-content: center;
+  font-family: 'Michroma', sans-serif;
 }
 
 .navbar .nav-links a {
@@ -87,6 +90,7 @@ footer {
 footer ul li a {
   display: inline-block;
   padding: 10px;
+  font-family: 'Assistant', sans-serif;
 }
 
 
