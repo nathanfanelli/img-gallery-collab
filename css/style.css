@@ -58,7 +58,10 @@ a {
   font-size: 1.1rem;
   color: #333;
 }
-  
+
+.nav-links .links a:hover{
+  color: orangered;
+}
 /* Gallery */
 .gallery-container {
   margin: 50px auto;
@@ -93,6 +96,9 @@ footer ul li a {
   font-family: 'Assistant', sans-serif;
 }
 
+footer ul li a:hover {
+color: orangered;
+}
 
 /* Media Queries */
 
