@@ -15,3 +15,6 @@ Testing pushing changes to my branch from VS Code.
 Imported art gallery photos of Richard Avedon portraits. (https://www.avedonfoundation.org/the-work)
 Imported fonts from google fonts and applied to text. Added color highlight when hovering over links. 
 Found potential flip animation for photos. (https://www.w3schools.com/howto/howto_css_flip_card.asp)
+
+03/09/20 NF:
+Added contact page with basic form.
