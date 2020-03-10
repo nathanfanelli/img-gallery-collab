@@ -18,3 +18,8 @@ Found potential flip animation for photos. (https://www.w3schools.com/howto/howt
 
 03/09/20 NF:
 Added contact page with basic form.
+
+03/10/20 NF: 
+Added Roboto font on the contact form.
+Added paddings and margins to the contact page.
+Linked the contact.html page to index.html.

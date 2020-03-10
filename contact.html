@@ -8,31 +8,38 @@
     <link
         href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Assistant|Michroma|Rubik+Mono+One|Tajawal&display=swap"
         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Responsive Image Gallery</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="contact-top">
         <!-- Navbar -->
         <!-- The thought here is to break the navigation bar into two parts: the logo that will sit on the top left of the viewport and the navigation links that will reside in the top right of the viewport. That way we can set the entire navigation bar (parent element) to grid and have the children sit inline together and we can then treat the child elements of the navbar with different styles. -->
         <nav class="navbar">
             <p class="logo">Gallery X</p>
             <ul class="nav-links">
-                <li class="links"><a href="#">Home</a></li>
-                <li class="links"><a href="#">Gallery</a></li>
-                <li class="links"><a href="#">Contact</a></li>
+                <li class="links"><a href="index.html">Home</a></li>
+                <li class="links"><a href="index.html">Gallery</a></li>
+                <li class="links"><a href="#contact-top">Contact</a></li>
             </ul>
         </nav>
+
+        <!-- Contact Form Heading -->
+        <div class="contact-heading">
+            <h2>Questions?</h2>
+            <h3>Let us know and we'll respond.</h3>
+        </div>
 
         <!-- Form -->
         <div class="form-container">
             <form action="#">
                 <label for="name">First Name:</label><br>
-                <input type="text" name="firstname" id="firstname" value=""><br>
+                <input type="text" name="firstname" id="firstname"><br>
                 <label for="lastname">Last Name:</label><br>
-                <input type="text" name="lastname" id="lastname" value=""><br>
+                <input type="text" name="lastname" id="lastname"><br>
                 <label for="email">Email:</label><br>
-                <input type="text" name="email" id="email" value=""><br>
+                <input type="text" name="email" id="email"><br>
                 <label for="message">Message:</label><br>
                 <textarea name="message" id="message"></textarea><br>
                 <input type="submit" value="Submit">
