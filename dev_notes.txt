@@ -23,3 +23,4 @@ Added contact page with basic form.
 Added Roboto font on the contact form.
 Added paddings and margins to the contact page.
 Linked the contact.html page to index.html.
+This is a test. 
