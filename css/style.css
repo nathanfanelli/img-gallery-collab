@@ -31,6 +31,41 @@ a {
   flex: 1 0 auto;
 }
 
+/* The Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  left: 20%;
+  top: 30%;
+  width: 500px;
+  height: 200px;
+  background-color: rgb(0,0,0);
+  background-color: #db8282e6;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #333;
+  width: 200px;
+  color: #fff;
+}
+
+.close {
+  color: #000;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* Navbar */
 
 .navbar {

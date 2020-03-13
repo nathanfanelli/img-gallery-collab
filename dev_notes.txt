@@ -24,3 +24,6 @@ Added Roboto font on the contact form.
 Added paddings and margins to the contact page.
 Linked the contact.html page to index.html.
 This is a test. 
+
+03/12/20 NF:
+Added a basic newsletter modal on page load without styling. Just wanted to make sure the JS was correct.
