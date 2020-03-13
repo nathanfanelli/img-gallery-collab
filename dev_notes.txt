@@ -27,3 +27,6 @@ This is a test.
 
 03/12/20 NF:
 Added a basic newsletter modal on page load without styling. Just wanted to make sure the JS was correct.
+
+03/13/20 NF:
+Fixed modal--background now has proper opacity and the modal can be closed by clicking anywhere on the screen. Modal content still needs a good amount of styling!

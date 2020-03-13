@@ -36,22 +36,43 @@ a {
   display: none;
   position: fixed;
   z-index: 2;
-  left: 20%;
-  top: 30%;
-  width: 500px;
-  height: 200px;
-  background-color: rgb(0,0,0);
-  background-color: #db8282e6;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
 }
 
 .modal-content {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
   margin: 10% auto;
-  padding: 20px;
+  padding: 100px;
   border: 1px solid #333;
-  width: 200px;
+  width: 500px;
   color: #fff;
+  background-color: orangered;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.modal-content span {
+  margin-right: 300px;
+}
+
+.modal-content span,
+.modal-content h2 {
+  margin-bottom: 30px;
+}
+
+.modal-content input {
+  height: 30px;
+  width: 275px;
 }
 
 .close {
