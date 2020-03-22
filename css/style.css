@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0
 }
-/* I've never seen a fixed margin be applied to all four sides of the viewport on the body tag. I got rid of that declaration because we'll want to apply custom margin and padding values to the different sections of the webpages. That would also negate the reset css styles at the very top that ensures every element on the web page is the exact size we tell it to be. Resets are EXTREMELY common! :)*/
 
 html, body {
   height: 100%;
@@ -208,29 +207,25 @@ footer ul li a:hover {
 color: orangered;
 }
 
+
 /* Media Queries */
-
-/* 
- UPDATE! There are two very popular media query breakpoints in responsive design. 
-    The first is 480px and this is the size of iPhone screen widths. 
-    The second is 768px and this is the size of iPad screen widths. 
-I am going to change the sizes and I am going to change these media queries from max-width to min-width. Min-width is for mobile-first approaches. Also, I am going to refrain from adding any media query styles until the very end. All of our CSS styles abov the media queries will be considered base styles and they will all be written as a single-column layout best suited for mobile devices. All of the media query styles will be written as an expansion of our single-column layout (i.e. 2-column layout on iPads and a 3-column layout on desktop). 
-*/
-
-  @media only screen and (max-width: 800px)  {
-    .gallery-container {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    footer {
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 15px;
-    }
+@media only screen and (max-width: 800px) {
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 
-    @media only screen and (max-width: 600px)   {
-    .gallery-container {
-      grid-template-columns: 1fr;
-    }
-  } 
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+}
 
+@media only screen and (max-width: 600px) {
+  .modal-content {
+    width: 310px;
+  }
+
+  .gallery-container {
+    grid-template-columns: 1fr;
+  }
+} 
