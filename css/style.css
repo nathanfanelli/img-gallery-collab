@@ -50,9 +50,9 @@ a {
   justify-content: space-evenly;
   align-items: center;
   margin: 10% auto;
-  padding: 100px;
+  padding: 20px 10px 50px;
   border: 1px solid #333;
-  width: 500px;
+  width: 400px;
   color: #fff;
   background-color: orangered;
   font-family: 'Roboto', sans-serif;
@@ -62,6 +62,10 @@ a {
 
 .modal-content span {
   margin-right: 300px;
+}
+
+.modal-content span:hover {
+  color: #666;
 }
 
 .modal-content span,
